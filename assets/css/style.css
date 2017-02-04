@@ -1,0 +1,122 @@
+body{ 
+	
+	background-image: url("tree_bark.png");
+	color: #777777;
+	margin:0px;
+	height: 100%;
+
+}
+
+header{
+
+	background: #ffffff;
+	margin-bottom: 20px;
+	border-bottom:solid 5px #cccccc;	
+	width: 100%;
+	overflow: auto;
+	color:white;
+}
+
+
+h1{
+	background-color: #4aaaa5;
+	width: 20%;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	font-family:georgia;
+	margin:0 0 0 250px;
+}
+
+nav{ 
+	font-family: arial;
+	width: 35%;
+	padding: 10px;
+	float: right
+}
+
+
+a{
+	color: #777777;
+	font-size: 20px;
+	margin: 10px;
+}
+
+li{
+	display: inline-block;
+}
+
+section, #form, #portfolio{
+	clear: both;
+	overflow: auto;
+	border: solid 2px #cccccc;
+	background: #ffffff;
+	width: 35%;
+	padding: 10px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px
+}
+
+
+#bio{
+	float: left;
+	margin-right: 20px;
+}
+
+#info {
+	text-align: center;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+.images{
+	margin:10px;
+}
+	
+.header{
+	border-bottom: 6px solid #cccccc;
+	font-size: 30px;
+	font-family: arial;
+	color: #4aaaa5;
+}
+
+aside{
+	width:24%;
+	border: solid 2px #cccccc;
+	background: #ffffff;
+	float: right;
+	margin-right: 150px;
+	margin-top: 50px;
+}
+
+.box{
+	padding:5px;
+	width: 90%;
+}
+
+#submit{
+	margin-top: 10px;
+	background-color:#4aaaa5;
+	color: white;
+	font-size: 14px;
+	width: 16%; 
+}
+
+#footer{
+	position: fixed;
+	left:0px;
+	bottom: 0px;
+	height: 60px;
+	width: 100%;
+	border-top: 6px solid #4aaaa5;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	overflow: auto;
+	padding: 20px;
+	background:#666666;
+}
+
